@@ -1,0 +1,664 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>first-project</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet"href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="scss/main.css">
+</head>
+<body>
+    <div class="wrapper">
+        <section class="site-navigation">
+            <header class="center">
+                <div class="berger-menu">
+                    <div class="menu">
+                        <p class="title-menu">Меню</p>
+                        <span class="close"><img src="images/close.svg" alt="close"></span>
+                    </div>
+                    <div class="accordion" id="accordionExample">
+                        <div class="accordion-item item-burger">
+                        <h2 class="accordion-header" id="headingOne">
+                            <button class="accordion-button bg-btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                Жилое
+                            </button>
+                        </h2>
+                        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                            <div class="accordion-body bg-item">
+                            <strong>
+                                <ul class="item-menu-link">
+                                    <li class="link"><a href="">Дома из профилированого	бруса</a></li>
+                                    <li class="link"><a href="">Дома из	оцилиндрованого	бруса</a></li>
+                                    <li class="link"><a href="">Каркасные дома</a></li>
+                                    <li class="link"><a href="">Дома из	блока</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        </div>
+                        <div class="accordion-item item-burger">
+                        <h2 class="accordion-header" id="headingTwo">
+                            <button class="accordion-button collapsed bg-btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                Комерчиское
+                            </button>
+                        </h2>
+                        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                            <div class="accordion-body bg-item">
+                            <strong>
+                                <ul class="item-menu-link">
+                                    <li class="link"><a href="">Базы	отдыха</a></li>
+                                    <li class="link"><a href="">Гостинницы</a></li>
+                                    <li class="link"><a href="">Рестораны</a></li>
+                                    <li class="link"><a href="">Кафе</a></li>
+                                    <li class="link"><a href="">Магазины</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        </div>
+                        <div class="accordion-item item-burger">
+                        <h2 class="accordion-header" id="headingThree">
+                            <button class="accordion-button collapsed bg-btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                Садовое
+                            </button>
+                        </h2>
+                        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                            <div class="accordion-body bg-item">
+                            <strong>
+                                <ul class="item-menu-link">
+                                    <li class="link"><a href="">Деревянные	бани</a></li>
+                                    <li class="link"><a href="">Беседки</a></li>
+                                    <li class="link"><a href="">Альтанки</a></li>
+                                    <li class="link"><a href="">Детские	игровые	площадки</a></li>
+                                    <li class="link"><a href="">Гаражи</a></li>
+                                    <li class="link"><a href="">Деревянные	детские	домики</a></li>
+                                    <li class="link"><a href="">Мангальные	зоны и	барбекю</a></li>
+                                    <li class="link"><a href="">Кухни</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        </div>
+                        <div class="accordion-item item-burger">
+                            <h2 class="accordion-header" id="headingFive">
+                                <button class="accordion-button collapsed bg-btn" type="button"  data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                                    <a class="about" href="about.html" target="_blanck">О компании</a>
+                                </button>
+                            </h2>
+                            <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
+                                <div class="accordion-body bg-item">
+                                <strong>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item item-burger">
+                            <h2 class="accordion-header" id="headingSix">
+                                <button class="accordion-button collapsed bg-btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                                    Наши работы
+                                </button>
+                            </h2>
+                            <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#accordionExample">
+                                <div class="accordion-body bg-item">
+                                <strong>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="social-link">
+                        <span class="social-title">Связаться напрямую:</span>
+                        <div class="social-item">
+                            <a href="#"><img src="images/telegram.svg" title="telegram" alt="telegram"></a>
+                            <a href="#"><img src="images/whatsapp.svg" title="whatsapp" alt="whatsapp"></a>
+                            <a href="#"><img src="images/viber.svg" title="viber" alt="viber"></a>
+                        </div>
+                    </div>
+                    <div class="connect-content">
+                        <div class="descr-content">
+                            <a class="number" href="tel:+3 80 (67) 175 56 30">+3 80 (67) 175 56 30</a>
+                            <span class="working-time">с 09:00 до 18:00 (пн-вс)</span>
+                        </div>
+                        <div class="bell-number">
+                            <a href="#">Заказать звонок</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="header-top">
+                    <div class="logo">
+                        <span class="click-menu"><img src="images/menu.svg" alt="menu"></span>
+                        <div class="logo-item">
+                            <img src="images/header-logo.svg" alt="header-logo">
+                        </div>
+                        <div class="phone-call">
+                            <a class="tell-call" href="tel:+3 80 (67) 175 56 30"><img src="images/Phone.svg" alt="phone"></a>
+                        </div>
+                        <hr class="line">
+                        <p class="header-descr-site">TokarCompany - производственно -строительная компания</p>
+
+                    </div>
+                    
+                    <div class="social-link">
+                        <span class="social-title">Связаться напрямую:</span>
+                        <div class="social-item">
+                            <a href="#"><img src="images/telegram.svg" title="telegram" alt="telegram"></a>
+                            <a href="#"><img src="images/whatsapp.svg" title="whatsapp" alt="whatsapp"></a>
+                            <a href="#"><img src="images/viber.svg" title="viber" alt="viber"></a>
+                        </div>
+                    </div>
+                    <div class="connect-content">
+                        <div class="descr-content">
+                            <a class="number" href="tel:+3 80 (67) 175 56 30">+3 80 (67) 175 56 30</a>
+                            <span class="working-time">с 09:00 до 18:00 (пн-вс)</span>
+                        </div>
+                        <div class="bell-number">
+                            <a href="#">Заказать звонок</a>
+                            <span class="descr-bell">Бесплатно по Украине</span>
+                        </div>
+                        <div class="language">
+                            <img src="images/RU.svg" alt="language">
+                        </div>
+                    </div>
+                </div>
+                <div class="header-bottom">
+                    <nav class="navbar">
+                        <ul class="nav-color">
+                            <li><a href="catalog.html" target="_blanck">Жилое</a></li>
+                            <li><a href="#">Коммерческое</a></li>
+                            <li><a href="#">Садовое</a></li>
+                        </ul>
+                        <ul class="nav-no-color">
+                            <li><a href="about.html" target="_blacnk">О компании</a></li>
+                            <li><a href="#">Наши работы</a></li>
+                            <li><a href="#">Контакты</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </header>
+            <div class="center">
+                <div class="site-navigation-container">
+                    <h1>Производим и устанавливаем строения разных видов в Украине</h1>
+                    <div class="content-text-btn">
+                        <p class="descr-title">Индивидуально под ваш запрос построим дом, ресторан, баню, беседку, мангал или любую другую постройку</p>
+                        <div class="btn">
+                            <a class="btn-catalog-houses" href="catalog.html" target="_blanck" title="перейти в каталог домов">Перейти в каталог домов</a>
+                            <a class="btn-catalog-baths" href="#" title="Перейти в каталог бань">Каталог бань</a>
+                        </div>
+                    </div>
+                    <div class="content-pictures">
+                        <div class="swiper mySwiper-one">
+                            <div class="swiper-wrapper">
+                              <div class="swiper-slide"><img src="images/bath.png" alt="bath"></div>
+                              <div class="swiper-slide"><img src="images/slide-header.png" alt="slide-header"></div>
+                              <div class="swiper-slide"><img src="images/bath.png" alt="bath"></div>
+                              <div class="swiper-slide"><img src="images/slide-header.png" alt="slide-header"></div>
+                              <div class="swiper-slide"><img src="images/bath.png" alt="bath"></div>
+                            </div>
+                            <div class="swiper-button-next item-rigth"></div>
+                            <div class="swiper-button-prev item-left"></div>
+                            <div class="swiper-pagination item-pagination"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="descr-price-working-container">
+            <div class="center">
+                <div class="descr-price-working">
+                    <h3 class="working-price-title">Почему выбирают нас:</h3>
+                    <div class="descr-price-working-items">
+                        <div class="descr-price-working-item animate__animated ">
+                            <img src="images/desckr-work-item1.svg" alt="desckr-work-item1">
+                            <p class="item-descr"><span class="item-descr-bold">Эксклюзивный дизайн</span>
+                                Не имеющий аналогов в Украине</p>
+                        </div>
+                        <div class="descr-price-working-item">
+                            <img src="images/desckr-work-item2.svg" alt="desckr-work-item2">
+                            <p class="item-descr"><span class="item-descr-bold">Разработка модели</span>
+                                Индивидуальной с помощью 3D-визуализации в нашем приложении</p>
+                        </div>
+                        <div class="descr-price-working-item">
+                            <img src="images/desckr-work-item3.svg" alt="desckr-work-item3">
+                            <p class="item-descr"><span class="item-descr-bold">Сертификаты качества</span>
+                                Подтверждают наши материалы и комплектующие</p>
+                        </div>
+                        <div class="descr-price-working-item">
+                            <img src="images/desckr-work-item4.svg" alt="desckr-work-item4">
+                            <p class="item-descr"><span class="item-descr-bold">Работа под ключ</span>
+                                В среднем за Х дней от установки фундамента до сдачи объекта в эксплуатацию</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="catalog-project-container">
+                    <div class="center">
+                        <div class="catalog-project-content">
+                            <h3 class="catalog-project-descr">Каталог проектов</h3>
+                            <div class="catalog-project-items">
+                                <div class="catalog-project-item">
+                                    <img src="images/catalog-project-item1.png" alt="catalog-project-item1">
+                                    <h4 class="itmem-descr-title">Жилое</h4>
+                                    <p class="item-descr-sub-title">Раздел с домами, дачами, коттеджами, виллами, усадьбами и особняками</p>
+                                    <a class="button" href="catalog.html" target="_blanck">Ознакомиться с проектами</a>
+                                </div>
+                                <div class="catalog-project-item">
+                                    <img src="images/catalog-project-item2.png" alt="catalog-project-item2">
+                                    <h4 class="itmem-descr-title">Коммерческое</h4>
+                                    <p class="item-descr-sub-title">Раздел с базами отдыха, гостиницами, ресторанами, кафе и магазинами</p>
+                                    <a class="button" href="#">Ознакомиться с проектами</a>
+                                </div>
+                                <div class="catalog-project-item">
+                                    <img src="images/catalog-project-item3.png" alt="catalog-project-item3">
+                                    <div class="item-tex-box">
+                                        <h4 class="itmem-descr-title">Садовое</h4>
+                                        <p class="item-descr-sub-title">Раздел с банями, беседками, альтанками, гаражами, кухнями, площадками, мангальными зонами и барбекю</p>
+                                        <a class="button" href="#">Ознакомиться с проектами</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="types-jobs">
+            <div class="types-jobs-container center">
+                <h3 class="types-jobs-title">Из чего состоят наши строения?</h3>
+                <div class="types-jobs-content">
+                        <div class="types-jobs-item">
+                            <h4 class="item-title">Создание 3D-макета</h4>
+                            <p class="item-title-descr">Это визуализация строения через экран гаджета. Макет создается индивидуально для клиента. Главная задача 3D-визуализации: учесть все детали в разработке и показать конечный вид проекта в оригинальном цвете и размере, используя актуальные материалы и наполнение внутри.</p>
+                            <img src="images/creation.png" alt="creation">
+                        </div>
+                        <div class="types-jobs-item2">
+                            <h4 class="item-title">Взятие замеров и создание фундамента.</h4>
+                            <p class="item-title-descr">Мы выезжаем на объект, обсуждаем задачу, выявляем потребность клиента и берем замеры. Строим несущую конструкцию, которая выдержит нагрузку от здания и погодных условий. Профессионалы используют лазерный уровень и качественные материалы, чтобы фундамент получился максимально крепким и ровным.</p>
+                            <img src="images/zamer.png" alt="zamer">
+                        </div>
+                        <div class="types-jobs-item3">
+                            <h4 class="item-title">Производство конструкции</h4>
+                            <p class="item-title-descr">На одном из 4 заводов по всей территории Украины мы производим конструкцию по техническому заданию. Задание создается и согласуется с вами через прописанный договор в начале работ.</p>
+                            <img src="images/production.png" alt="production">
+                        </div>
+                        <div class="types-jobs-item4">
+                            <h4 class="item-title">Монтажные работы</h4>
+                            <p class="item-title-descr">Выполним полный объем работ: от возведения фундамента до устройства кровли. В конечном итоге, можно будет сразу использовать строение, а не докупать материал на собственные деньги. Проведем сантехнические работы до полной сдачи проекта.</p>
+                            <img src="images/mounting.png" alt="mounting">
+                        </div>
+                </div>
+            </div>
+            <div class="tupes-jobs-slide-menu center">
+                <div class="slide">
+                    <div class="swiper mySwiper-one">
+                        <div class="swiper-wrapper">
+                          <div class="swiper-slide"><img src="images/Rectangle.jpg" alt="Rectangle"></div>
+                          <div class="swiper-slide"><img src="images/Rectangle.jpg" alt="Rectangle"></div>
+                          <div class="swiper-slide"><img src="images/Rectangle.jpg" alt="Rectangle"></div>
+                          <div class="swiper-slide"><img src="images/Rectangle.jpg" alt="Rectangle"></div>
+                          <div class="swiper-slide"><img src="images/Rectangle.jpg" alt="Rectangle"></div>
+                        </div>
+                        <div class="swiper-button-next item-rigth"></div>
+                        <div class="swiper-button-prev item-left"></div>
+                        <div class="swiper-pagination item-pagination"></div>
+                    </div>
+                </div>
+                <div class="butt-link">
+                    <a class="houses button-mmin" href="catalog.html" target="_blanck" title="Перейти в каталог домов">Перейти в каталог домов</a>
+                    <a class="baths button" href="#" title="Перейти в катало бань">Каталог бань</a>
+                </div>
+            </div>
+        </section>
+        <section class="descr-tokar-mebel">
+            <div class="tokar-mebel-container center">
+                <h3 class="tokar-mebel-title">О компании TokarMebel</h3>
+                <div class="tokar-mebel-content">
+                    <div class="content-top">
+                        <div class="content-visual">
+                            <div class="video">
+                                <a href="video/pexels-kelly-lacy-9722139.mp4" target="_blanck" title="видео о компании"><img class="play" src="images/play.svg" alt="play"></a>
+                                <p class="descr-video">Посмотреть короткое видео о компании (2:42 мин)</p>
+                            </div>
+                            <div class="icon-men">
+                                <img class="men" src="images/bg-block-center.png" alt="bg-block-center">
+                            </div>
+                        </div>
+                        <div class="visual-descr">
+                            <div class="visual-descr-wrap">
+                                <img src="images/visual-descr.svg" alt="visual-descr">
+                            </div>
+                            <div class="visual-descr-text">
+                                <h4 class="visual-descr-title">Точилов Александр Николаевич</h4>
+                                <p class="visual-deacr-subtitle">Цитата о компании, пару слов от самого лица компании. Цитата о компании, пару слов от самого лица компании. </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="content-bottom">
+                        <div class="tokar-mebel-info">
+                            <div class="tokar-mebel-info-item">
+                                <p class="title"><span class="year">21</span>год</p>
+                                <hr class="line">
+                                <p class="sub-title">Работаем на рынке Украины с 1998 года</p>
+                            </div>
+                            <div class="tokar-mebel-info-item">
+                                <p class="title"><span class="year">300&plus;</span></p>
+                                <hr class="line">
+                                <p class="sub-title">Позиций различных строений</p>
+                            </div>
+                            <div class="tokar-mebel-info-item">
+                                <p class="title">до<span class="year">7&percnt;</span></p>
+                                <hr class="line">
+                                <p class="sub-title">Влажность просушенного дерева, что соответствует нормативам ГОСТ</p>
+                            </div>
+                            <div class="tokar-mebel-info-item">
+                                <p class="title">в<span class="year">1&comma;5</span>раза</p>
+                                <hr class="line">
+                                <p class="sub-title">Стоимость доставки ниже рыночной</p>
+                            </div>
+                        </div>
+                        <div class="butt-link">
+                            <a class="button-mmin" href="about.html" target="_blanck" title="О компании">Подробнее о компании</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="types-building">
+            <div class="types-building-container center">
+                <h3 class="types-building-title">Мы разделяем 3 вида строений</h3>
+                <div class="types-building-items">
+                    <div class="types-building-item">
+                        <img src="images/types-building-item.png" alt="types-jobs-item">
+                        <ul class="item-menu-link">
+                            <li class="item-sub-title">Жилые строения</li>
+                            <li class="link"><a href="">Домa из	профилированого	бруса</a></li>
+                            <li class="link"><a href="">Дома из	оцилиндрованого	бруса</a></li>
+                            <li class="link"><a href="">Каркасные дома</a></li>
+                            <li class="link"><a href="">Дома из	блока</a></li>
+                        </ul>
+                    </div>
+                    <div class="types-building-item">
+                        <img src="images/types-building-item2.png" alt="types-jobs-item2">
+                        <ul class="item-menu-link">
+                            <li class="item-sub-title">Коммерческие</li>
+                            <li class="link"><a href="">Базы	отдыха</a></li>
+                            <li class="link"><a href="">Гостинницы</a></li>
+                            <li class="link"><a href="">Рестораны</a></li>
+                            <li class="link"><a href="">Кафе</a></li>
+                            <li class="link"><a href="">Магазины</a></li>
+                        </ul>
+                    </div>
+                    <div class="types-building-item">
+                        <img src="images/types-building-item3.png" alt="types-jobs-item3">
+                        <ul class="item-menu-link">
+                            <li class="item-sub-title">Садовые и хоз</li>
+                            <li class="link"><a href="">Деревянные	бани</a></li>
+                            <li class="link"><a href="">Беседки</a></li>
+                            <li class="link"><a href="">Альтанки</a></li>
+                            <li class="link"><a href="">Гаражи</a></li>
+                            <li class="link"><a href="">Деревянные	детские	домики</a></li>
+                            <li class="link"><a href="">Мангальные	зоны и	барбекю</a></li>
+                            <li class="link"><a href="">Кухни</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="site-news">
+            <div class="site-news-container center">
+                <h3 class="site-news-title">Последние статьи</h3>
+                <div class="articles-items">
+                    <div class="swiper mySwiper articles-items">
+                        <div class="swiper-wrapper">
+                            <div class="articles-item swiper-slide">
+                                <img src="images/site-news-item1.png" alt="site-news-item1">
+                                <a href="#">Архитектура</a>
+                                <p class="item-title-descr">Готовый загородный дом или самостоятельное строительство?</p>
+                                <p class="item-title-sub-title">Купить или построить дом с нуля – неизбежный вопрос, когда возникает желание приобрести частную недвижимость за городом.</p>
+                            </div>
+                            <div class="articles-item swiper-slide">
+                                <img src="images/site-news-item2.png" alt="site-news-item2">
+                                <a href="#">Архитектура</a>
+                                <p class="item-title-descr">Авторские проекты домов – почему эксклюзив выгоднее</p>
+                                <p class="item-title-sub-title">Владельцу предстоит решить вопрос: купить готовый типовой вариант или заказать индивидуальный.</p>
+                            </div>
+                            <div class="articles-item swiper-slide">
+                                <img src="images/site-news-item3.png" alt="site-news-item3">
+                                <a href="#">Архитектура</a>
+                                <p class="item-title-descr">Красивые дома: 100+ фото лучших проектов</p>
+                                <p class="item-title-sub-title">Современная малоэтажная застройка в России представлена как типовыми архитектурными решениями, популярными.</p>
+                            </div>
+                            <div class="articles-item swiper-slide">
+                                <img src="images/site-news-item1.png" alt="site-news-item1">
+                                <a href="#">Архитектура</a>
+                                <p class="item-title-descr">Готовый загородный дом или самостоятельное строительство?</p>
+                                <p class="item-title-sub-title">Купить или построить дом с нуля – неизбежный вопрос, когда возникает желание приобрести частную недвижимость за городом.</p>
+                            </div>
+                            <div class="articles-item swiper-slide">
+                                <img src="images/site-news-item2.png" alt="site-news-item2">
+                                <a href="#">Архитектура</a>
+                                <p class="item-title-descr">Авторские проекты домов – почему эксклюзив выгоднее</p>
+                                <p class="item-title-sub-title">Владельцу предстоит решить вопрос: купить готовый типовой вариант или заказать индивидуальный.</p>
+                            </div>
+                            <div class="articles-item swiper-slide">
+                                <img src="images/site-news-item3.png" alt="site-news-item3">
+                                <a href="#">Архитектура</a>
+                                <p class="item-title-descr">Красивые дома: 100+ фото лучших проектов</p>
+                                <p class="item-title-sub-title">Современная малоэтажная застройка в России представлена как типовыми архитектурными решениями, популярными.</p>
+                            </div>
+                        </div>
+                        <div class="swiper-button-next item-rigth-next"></div>
+                        <div class="swiper-button-prev item-left-prev"></div>
+                        <div class="swiper-pagination poginator-item-news"></div>
+                      </div>
+                </div>
+                <div class="site-news-articles">
+                    <div class="articles-text">
+                        <h4 class="articles-title">Заголовок текста для СЕО</h4>
+                        <p class="articles-title-descr">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor          incididunt ut labore et dolore magna aliqua. In fermentum posuere urna nec. Tincidunt eget nullam non nisi est sit amet     facilisis magna. Faucibus vitae aliquet nec ullamcorper sit amet risus.</p>
+                        <p class="articles-title-descr">Aliquet nec ullamcorper sit amet risus nullam. Adipiscing elit pellentesque habitant morbi tristique senectus et netus. Commodo viverra maecenas accumsan lacus vel facilisis.<br>
+                        Tempor orci eu lobortis elementum nibh tellus molestie nunc non. Enim facilisis gravida neque convallis a.</p>
+                    </div>
+                    <div class="visual-news">
+                        <div class="swiper mySwiper-one">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide"><img src="images/site-news-item4.png" alt="site-news-item4"></div>
+                                <div class="swiper-slide"><img src="images/site-news-item4.png" alt="site-news-item4"></div>
+                                <div class="swiper-slide"><img src="images/site-news-item4.png" alt="site-news-item4"></div>
+                                <div class="swiper-slide"><img src="images/site-news-item4.png" alt="site-news-item4"></div>
+                                <div class="swiper-slide"><img src="images/site-news-item4.png" alt="site-news-item4"></div>
+                            </div>
+                            <div class="swiper-button-next item-rigth"></div>
+                            <div class="swiper-button-prev item-left"></div>
+                            <div class="swiper-pagination item-pagination"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="site-navigation-footer">
+            <div class="berger-menu-footer">
+                <div class="logo">
+                    <div class="logo-item">
+                        <img src="images/header-logo.svg" alt="header-logo">
+                    </div>
+                    <p class="header-descr-site">TokarCompany - производственно -строительная компания</p>
+                </div>
+                <div class="accordion" id="accordionExample">
+                    <div class="accordion-item item-burger">
+                    <h2 class="accordion-header" id="headingOne">
+                        <button class="accordion-button bg-btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            Жилое
+                        </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                        <div class="accordion-body bg-item">
+                        <strong>
+                            <ul class="item-menu-link">
+                                <li class="link"><a href="">Дома из профилированого	бруса</a></li>
+                                <li class="link"><a href="">Дома из	оцилиндрованого	бруса</a></li>
+                                <li class="link"><a href="">Каркасные дома</a></li>
+                                <li class="link"><a href="">Дома из	блока</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    </div>
+                    <div class="accordion-item item-burger">
+                    <h2 class="accordion-header" id="headingTwo">
+                        <button class="accordion-button collapsed bg-btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            Комерчиское
+                        </button>
+                    </h2>
+                    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                        <div class="accordion-body bg-item">
+                        <strong>
+                            <ul class="item-menu-link">
+                                <li class="link"><a href="">Базы	отдыха</a></li>
+                                <li class="link"><a href="">Гостинницы</a></li>
+                                <li class="link"><a href="">Рестораны</a></li>
+                                <li class="link"><a href="">Кафе</a></li>
+                                <li class="link"><a href="">Магазины</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    </div>
+                    <div class="accordion-item item-burger">
+                    <h2 class="accordion-header" id="headingThree">
+                        <button class="accordion-button collapsed bg-btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            Садовое
+                        </button>
+                    </h2>
+                    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                        <div class="accordion-body bg-item">
+                        <strong>
+                            <ul class="item-menu-link">
+                                <li class="link"><a href="">Деревянные	бани</a></li>
+                                <li class="link"><a href="">Беседки</a></li>
+                                <li class="link"><a href="">Альтанки</a></li>
+                                <li class="link"><a href="">Детские	игровые	площадки</a></li>
+                                <li class="link"><a href="">Гаражи</a></li>
+                                <li class="link"><a href="">Деревянные	детские	домики</a></li>
+                                <li class="link"><a href="">Мангальные	зоны и	барбекю</a></li>
+                                <li class="link"><a href="">Кухни</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    </div>
+                    <div class="accordion-item item-burger">
+                        <h2 class="accordion-header .accordion-title" id="headingFive">
+                            <button class="accordion-button collapsed bg-btn" type="button"   aria-expanded="false" aria-controls="collapseFive">
+                                <a class="about" href="about.html" target="_blanck">О компании</a>
+                            </button>
+                        </h2>
+                        <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
+                            <div class="accordion-body bg-item">
+                            <strong>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item item-burger">
+                        <h2 class="accordion-header" id="headingSix">
+                            <button class="accordion-button collapsed bg-btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                                Наши работы
+                            </button>
+                        </h2>
+                        <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#accordionExample">
+                            <div class="accordion-body bg-item">
+                            <strong>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="social-link">
+                    <span class="social-title">Связаться напрямую:</span>
+                    <div class="social-item">
+                        <a href="#"><img src="images/telegram.svg" title="telegram" alt="telegram"></a>
+                        <a href="#"><img src="images/whatsapp.svg" title="whatsapp" alt="whatsapp"></a>
+                        <a href="#"><img src="images/viber.svg" title="viber" alt="viber"></a>
+                    </div>
+                </div>
+                <div class="connect-content">
+                    <div class="descr-content">
+                        <a class="number" href="tel:+3 80 (67) 175 56 30">+3 80 (67) 175 56 30</a>
+                        <span class="working-time">с 09:00 до 18:00 (пн-вс)</span>
+                    </div>
+                    <div class="bell-number">
+                        <a href="#">Заказать звонок</a>
+                    </div>
+                </div>
+            </div>
+            <footer class="center">
+                <div class="footer-top">
+                    <nav class="navbar">
+                        <ul class="nav-color">
+                            <li><a href="catalog.html" target="_blacnk">Жилое</a></li>
+                            <li><a href="#">Коммерческое</a></li>
+                            <li><a href="#">Садовое</a></li>
+                        </ul>
+                        <ul class="nav-no-color">
+                            <li><a href="about.html" target="_blanck    ">О компании</a></li>
+                            <li><a href="#">Наши работы</a></li>
+                            <li><a href="#">Заказать звонок</a></li>
+                        </ul>
+                        
+                    </nav>
+                </div>
+                <div class="footer-bottom">
+                    <div class="footer-menu-links">
+                        <ul class="item-menu-link">
+                            <li class="link"><a href="">Домa из	профилированого	бруса</a></li>
+                            <li class="link"><a href="">Дома из	оцилиндрованого	бруса</a></li>
+                            <li class="link"><a href="">Каркасные дома</a></li>
+                            <li class="link"><a href="">Дома из	блока</a></li>
+                        </ul>
+                        <ul class="item-menu-link">
+                            <li class="link"><a href="">Базы	отдыха</a></li>
+                            <li class="link"><a href="">Гостинницы</a></li>
+                            <li class="link"><a href="">Рестораны</a></li>
+                            <li class="link"><a href="">Кафе</a></li>
+                            <li class="link"><a href="">Магазины</a></li>
+                        </ul>
+                        <ul class="item-menu-link">
+                            <li class="link"><a href="">Деревянные	бани</a></li>
+                            <li class="link"><a href="">Беседки</a></li>
+                            <li class="link"><a href="">Альтанки</a></li>
+                            <li class="link"><a href="">Гаражи</a></li>
+                            <li class="link"><a href="">Деревянные	детские	домики</a></li>
+                            <li class="link"><a href="">Мангальные	зоны и	барбекю</a></li>
+                            <li class="link"><a href="">Кухни</a></li>
+                        </ul>
+                    </div>
+                    <div class="connect">
+                        <div class="foooter-logo">
+                            <div class="logo-item">
+                                <img src="images/header-logo.svg" alt="header-logo"></img>
+                            </div>
+                            <p class="footer-descr-site">TokarCompany - производственно -строительная компания</p>
+                        </div>
+                        <div class="social-link">
+                            <span class="social-title">Связаться напрямую:</span>
+                            <div class="social-item">
+                                <a href="#"><img src="images/telegram.svg" title="telegram" alt="telegram"></a>
+                                <a href="#"><img src="images/whatsapp.svg" title="whatsapp" alt="whatsapp"></a>
+                                <a href="#"><img src="images/viber.svg" title="viber" alt="viber"></a>
+                            </div>
+                        </div>
+                        <div class="descr-content">
+                            <a class="number" href="tel:+3 80 (67) 175 56 30">+3 80 (67) 175 56 30</a>
+                            <span class="working-time">с 09:00 до 18:00 (пн-вс)</span>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+            <hr class="footer-line">
+        </section>
+        <section class="copy">
+            <div class="copy-descr center">
+                <p class="copy-text">&copy;2020. Все права защищены. TokarCompany - Производственно-строительная компания. Информация, представленная на сайте, не является публичной офертой.</p>
+            </div>
+        </section>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    <script src="js/swiper.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
