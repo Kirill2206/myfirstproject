@@ -487,6 +487,7 @@ header{
             }
         }
         .content-pictures{
+            cursor: pointer;
             grid-column: 2;
             grid-row: 1/5;
             max-width: 615px;
@@ -732,6 +733,7 @@ header{
     }
     .tupes-jobs-slide-menu{
         .slide{
+            cursor: pointer;
             margin-bottom: 66px;
             .item-rigth{
                 right: 44%;
@@ -984,6 +986,7 @@ header{
         }
         .articles-item{
             position: relative;
+            cursor: pointer;
             max-width: 400px;
             margin-right: 30px;
             img{
@@ -1049,6 +1052,7 @@ header{
         }
     }
     .visual-news{
+        cursor: pointer;
         max-width: 570px;
         width: 100%;
         img{
@@ -1591,6 +1595,7 @@ footer{
             }
         }
     }
+    
     .types-jobs{
         .types-jobs-container{
             .types-jobs-content{
@@ -1607,6 +1612,25 @@ footer{
                         left: 30%;
                         top: -15%;
                     }
+                }
+            }
+        }
+        .tupes-jobs-slide-menu{
+            .slide{
+                cursor: pointer;
+                margin-bottom: 66px;
+                .item-rigth{
+                    right: 38%;
+                }
+                .item-left{
+                    right: 57%;
+                }
+                .item-pagination{
+                    right: 46%;
+                }
+                img{
+                    border-radius: 0px 100px;
+                    width: 100%;
                 }
             }
         }

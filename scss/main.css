@@ -637,6 +637,7 @@ header .header-bottom {
 }
 
 .site-navigation .site-navigation-container .content-pictures {
+  cursor: pointer;
   -ms-grid-column: 2;
   grid-column: 2;
   -ms-grid-row: 1;
@@ -938,6 +939,7 @@ header .header-bottom {
 }
 
 .types-jobs .tupes-jobs-slide-menu .slide {
+  cursor: pointer;
   margin-bottom: 66px;
 }
 
@@ -1262,6 +1264,7 @@ header .header-bottom {
 
 .site-news-container .articles-items .articles-item {
   position: relative;
+  cursor: pointer;
   max-width: 400px;
   margin-right: 30px;
 }
@@ -1345,6 +1348,7 @@ header .header-bottom {
 }
 
 .site-news-articles .visual-news {
+  cursor: pointer;
   max-width: 570px;
   width: 100%;
 }
@@ -1925,6 +1929,23 @@ footer .footer-bottom .connect .descr-content .working-time {
   .types-jobs .types-jobs-container .types-jobs-content .types-jobs-item img, .types-jobs .types-jobs-container .types-jobs-content .types-jobs-item2 img, .types-jobs .types-jobs-container .types-jobs-content .types-jobs-item3 img, .types-jobs .types-jobs-container .types-jobs-content .types-jobs-item4 img {
     left: 30%;
     top: -15%;
+  }
+  .types-jobs .tupes-jobs-slide-menu .slide {
+    cursor: pointer;
+    margin-bottom: 66px;
+  }
+  .types-jobs .tupes-jobs-slide-menu .slide .item-rigth {
+    right: 38%;
+  }
+  .types-jobs .tupes-jobs-slide-menu .slide .item-left {
+    right: 57%;
+  }
+  .types-jobs .tupes-jobs-slide-menu .slide .item-pagination {
+    right: 46%;
+  }
+  .types-jobs .tupes-jobs-slide-menu .slide img {
+    border-radius: 0px 100px;
+    width: 100%;
   }
   .descr-tokar-mebel .tokar-mebel-container .tokar-mebel-title {
     font-size: 28px;

@@ -166,6 +166,7 @@
 }
 
 .catalog .catalog-container .catalog-content .catalog-item {
+  cursor: pointer;
   width: 100%;
   max-width: 270px;
   border-radius: 0px 36px;
@@ -268,6 +269,16 @@
 
 .catalog .catalog-container .btn-visual a:hover {
   background: #ece0cd;
+}
+
+.catalog .catalog-container .btn-visual a::before {
+  content: '';
+  top: 21px;
+  left: 0;
+  background: url(../images/btn-visual.svg) no-repeat;
+  padding-right: 49px;
+  padding-bottom: 20px;
+  padding-top: 7px;
 }
 
 .project-dev {
@@ -403,6 +414,10 @@
         -ms-flex-pack: center;
             justify-content: center;
     width: 100%;
+  }
+  .catalog .catalog-container .catalog-content .catalog-item:hover {
+    -webkit-transform: none;
+            transform: none;
   }
   .project-dev {
     -ms-flex-wrap: wrap;

@@ -118,6 +118,7 @@
             max-width: 871px;
             margin-left: 99px;
             .catalog-item{
+                cursor: pointer;
                 width: 100%;
                 max-width: 270px;
                 border-radius: 0px 36px;
@@ -201,6 +202,16 @@
                 border-radius: 8px;
                 &:hover{
                     background: #ece0cd;
+                }
+                &::before{
+                    content: '';
+                    top: 21px;
+                    left: 0;
+                    background: url(../images/btn-visual.svg) no-repeat;
+                    padding-right: 49px;
+                    padding-bottom: 20px;
+                    padding-top: 7px;
+                
                 }
             }
         }
@@ -321,6 +332,15 @@
             flex-wrap: wrap;
             justify-content: center;
             width: 100%;
+        }
+        .catalog-container{
+            .catalog-content{
+                .catalog-item{
+                    &:hover{
+                        transform: none;
+                    }
+                }
+            }
         }
     }
     .project-dev{
